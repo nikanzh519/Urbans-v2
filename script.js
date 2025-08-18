@@ -1,3 +1,3 @@
-function sayHello() {
+function showLogin() {
 alert("Hello from JavaScript!");
 }
