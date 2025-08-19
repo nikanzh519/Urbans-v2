@@ -11,10 +11,24 @@
   log inn</h1>
 <button onclick="showLogin()">create account</button>
 
-<div id="loginForm" style="display: none; margin-top: 20px;">
-<input type="text" id="username" placeholder="Username" /><br /><br />
-<input type="password" id="password" placeholder="Password" /><br /><br />
+<h1>Welcome</h1>
+
+<!-- Login Form -->
+<div id="loginSection">
+<h2>Login</h2>
+<input type="text" id="loginUsername" placeholder="Username" /><br /><br />
+<input type="password" id="loginPassword" placeholder="Password" /><br /><br />
 <button onclick="login()">Login</button>
+<p>Don't have an account? <button onclick="showRegister()">Create Profile</button></p>
+</div>
+
+<!-- Registration Form -->
+<div id="registerSection" style="display: none;">
+<h2>Create Profile</h2>
+<input type="text" id="registerUsername" placeholder="Choose a username" /><br /><br />
+<input type="password" id="registerPassword" placeholder="Choose a password" /><br /><br />
+<button onclick="register()">Register</button>
+<p>Already have an account? <button onclick="showLogin()">Back to Login</button></p>
 </div>
   
 <script src="script.js"></script>
