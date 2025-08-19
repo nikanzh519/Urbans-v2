@@ -10,6 +10,7 @@ if (username === "" || password === "") {
 alert("Please enter both username and password.");
 } else {
 alert(`Welcome, ${username}!`);
-// You can add more logic here, like redirecting or storing data
+// Redirect to another page
+window.location.href = "welcome.html"; // Change this to your target page
 }
 }
